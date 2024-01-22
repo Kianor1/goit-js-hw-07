@@ -1,0 +1,68 @@
+body {
+  width: 440px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+#categories {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  font-family: "Montserrat", sans-serif;
+  color: #2E2F42;
+  list-style: none;
+  padding: 24px;
+  margin: 0;
+  list-style: none;
+}
+
+h2 {
+  width: 360px;
+  color: #2E2F42;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 133%;
+  letter-spacing: 0.96px;
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  width: 392px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background-color: #F6F6FE;
+  align-items: center;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.item ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.item ul li {
+  display: flex;
+  align-items: center;
+  width: 358px;
+  height: 38px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  color: #2E2F42;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.64px;
+  padding-left: 16px;
+}
